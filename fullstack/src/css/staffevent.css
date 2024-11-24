@@ -1,0 +1,74 @@
+.form-container {
+  margin: 20px auto; /* Centers the form container */
+  font-family: Arial, sans-serif;
+  width: 90%; /* Ensure the form doesn't take the entire screen width */
+  max-width: 1200px; /* Limit the form width on larger screens */
+}
+
+.event-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  table-layout: auto; /* Allow columns to resize based on content */
+  text-align: center; /* Centers the content of the table */
+}
+
+.event-table th, .event-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center; /* Centers the text inside the cells */
+  font-size: 14px;
+}
+
+.event-table th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.event-table td {
+  word-wrap: break-word; /* Ensures text doesn’t overflow the cell */
+}
+
+.college-options, .prize-participation, .permission {
+  text-align: left;
+  padding-left: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  padding: 5px 0;
+}
+
+button.upload-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: not-allowed; /* Not clickable */
+}
+
+button.upload-btn:hover {
+  background-color: #45a049;
+}
+
+.permission label {
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+  .event-table th, .event-table td {
+    padding: 8px;
+    font-size: 12px;
+  }
+}

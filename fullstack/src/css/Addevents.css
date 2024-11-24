@@ -1,0 +1,46 @@
+.container {
+  max-width: 900px;
+}
+
+.card {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  border-radius: 6px;
+  border: 1px solid #ced4da;
+}
+
+.input-group {
+  margin-top: 8px;
+}
+
+.btn-lg {
+  padding: 10px 20px;
+  font-size: 1.25rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.ml-3 {
+  margin-left: 1rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.mt-4 {
+  margin-top: 1.5rem;
+}
+
+.shadow-lg {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}

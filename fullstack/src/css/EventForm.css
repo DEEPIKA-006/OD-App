@@ -1,0 +1,78 @@
+/* Full-width table styling */
+.table-container {
+  width: 100%; /* Full width of the page */
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.event-table {
+  width: 100%; /* Full width table */
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.event-table th,
+.event-table td {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 10px; /* Increased padding for better readability */
+}
+
+.event-table th {
+  background-color: #007bff;
+  color: white;
+  text-transform: uppercase;
+}
+
+.event-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.event-table a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.event-table a:hover {
+  text-decoration: underline;
+}
+
+
+
+/* Floating Button */
+.floating-button {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.floating-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Adjust for mobile */
+@media (max-width: 768px) {
+  .event-table th,
+  .event-table td {
+    padding: 8px;
+    font-size: 14px; /* Smaller font size for mobile */
+  }
+  .floating-button {
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 20px;
+    font-size: 30px;
+  }
+}

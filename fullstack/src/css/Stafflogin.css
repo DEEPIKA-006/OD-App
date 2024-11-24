@@ -1,0 +1,90 @@
+/* Stafflogin.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.staff-login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.staff-login-form {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  height: 415px;
+  width: 440px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-right: 5px;
+}
+
+.staff-login-title {
+  font-family: 'Comic Sans MS', cursive;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.staff-login-subtitle {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.staff-login-link {
+  color: blue;
+  cursor: pointer;
+}
+
+.staff-login-input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.staff-login-button {
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+  background-color: #4a4aff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.staff-forgot-password {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.staff-signup-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.staff-signup-link {
+  color: blue;
+  cursor: pointer;
+}
+
+.staff-image-container {
+  width: 100%;
+  max-width: 400px;
+  height: 410px;
+  margin-bottom: 0px; /* Margin below image */
+}
+
+.staff-college-image {
+  width: 100%;
+  max-width: 400px;
+  height: 410px;
+  margin-bottom: 0px; /* Margin below image */
+}

@@ -1,0 +1,129 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.header-top-border,
+.header-bottom-border {
+  background-color: #00ff66;
+  height: 10px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 25px;
+  width: 100%;
+  margin: 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap; /* Allow elements to wrap to the next line if necessary */
+}
+
+.college-logo {
+  flex: 0 0 auto; /* Logo shouldn't shrink */
+  width: 100px;
+  height: auto;
+  margin-right: 15px;
+}
+
+.college-info {
+  flex: 1; /* Allow it to grow and shrink with the container */
+  position: relative;
+  min-width: 250px; /* Ensure it doesn't get too small */
+}
+
+.college-info h1 {
+  margin: 0;
+  font-size: 1.8em;
+  color: #000;
+  text-align: left;
+}
+
+.autonomous {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1em;
+  margin: 5px 0;
+}
+
+.college-info p {
+  margin: 3px 0;
+  font-size: 0.9em;
+  text-align: left;
+  color: #555;
+}
+
+.header-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  flex: 0 0 auto; /* Buttons shouldn't shrink */
+}
+
+.header-button {
+  background-color: #fff;
+  border: 2px solid #d3d3d3;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin: 5px 0;
+  cursor: pointer;
+  font-size: 0.9em;
+  color: #333;
+  transition: background-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.header-button:hover {
+  background-color: #f0f0f0;
+}
+
+@media only screen and (max-width: 800px) {
+  .header-container {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center;
+    padding: 15px;
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .college-logo {
+    width: 80px;
+    margin-bottom: 10px;
+  }
+
+  .college-info {
+    text-align: center;
+    margin-bottom: 15px; /* Add some spacing between college info and buttons */
+  }
+
+  .college-info h1 {
+    font-size: 1.5em; /* Adjust font size */
+  }
+
+  .autonomous, .college-info p {
+    text-align: center;
+    font-size: 0.9em;
+    margin: 5px 0;
+  }
+
+  .header-buttons {
+    width: 100%; /* Take full width */
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .header-button {
+    width: 90%; /* Make buttons wider for easier tapping */
+    text-align: center;
+    padding: 12px 0;
+    margin: 10px 0;
+  }
+}
